@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav class="Upper_title">
+            <a href="HOME.html">
+            <img src="TITLE.jpg" class="title_image"></a>
+
+            <div class="links">
+                <a href="HOME.html">Home</a>
+                <a href="men-template.html">Mens </a>
+                <a href="women-template.html">Womens</a>
+                <a>Kids</a>
+                <a>Login</a>
+                <a>Contact</a>
+                <a href="search.html">Search</a>
+            </div></nav>
+        
+        <div class="image">
+        <img src="girls section img/girls t shirt.jfif" class="underimage"></div>
+
+        <h1 class="main-text3">T-Shirt </h1>
+        <p class="sub-text">"Elevate casual to captivating – our t-shirts redefine comfort with a touch of trendy, making every day a statement."</p>
+
+        
+            <hr>
+        <p class="sub-text2">Price: 20$</p>
+        <p class="sub-text2">Expected delivery: 7 Days</p>
+
+        <div id="cart-message">Item added to cart!</div>
+        <div>
+        
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+          
+          <script>
+            function addToCart() {
+              // Display the cart message
+              var cartMessage = document.getElementById("cart-message");
+              cartMessage.style.display = "block";
+          
+              // Hide the cart message after 3 seconds (adjust as needed)
+              setTimeout(function() {
+                cartMessage.style.display = "none";
+              }, 3000);
+            }
+          </script>
+    </body>
+</html>

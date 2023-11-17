@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav class="Upper_title">
+            <a href="HOME.html">
+            <img src="TITLE.jpg" class="title_image"></a>
+
+            <div class="links">
+                <a href="HOME.html">Home</a>
+                <a href="men-template.html">Mens </a>
+                <a href="women-template.html">Womens</a>
+                <a>Kids</a>
+                <a>Login</a>
+                <a>Contact</a>
+                <a href="search.html">Search</a>
+            </div></nav>
+        
+        <div class="image">
+        <img src="boy section img/boys jeans.jfif" class="underimage"></div>
+
+        <h1 class="main-text3">Watch</h1>
+        <p class="sub-text">"Timeless elegance meets modern precision – adorn your moments with our watches, where every tick marks a memory."</p>
+
+
+
+
+
+
+            <hr>
+        <p class="sub-text2">Price: 500$</p>
+        <p class="sub-text2">Expected delivery: 7 Days</p>
+
+        <div id="cart-message">Item added to cart!</div>
+        <div>
+        
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+          
+          <script>
+            function addToCart() {
+              // Display the cart message
+              var cartMessage = document.getElementById("cart-message");
+              cartMessage.style.display = "block";
+          
+              // Hide the cart message after 3 seconds (adjust as needed)
+              setTimeout(function() {
+                cartMessage.style.display = "none";
+              }, 3000);
+            }
+          </script>
+    </body>
+</html>
